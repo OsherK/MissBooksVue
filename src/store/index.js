@@ -6,7 +6,7 @@ import bookModule from './module/book-module'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  strict: true,
+  strict: Vue.config.devtools,
   state: {
   },
   getters: {
