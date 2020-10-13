@@ -1,0 +1,33 @@
+.user-msg{
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    border: 2px solid;
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 5px;
+    &.success{
+        border-color: lightgreen;
+        color: lightgreen;
+        button{
+            background-color:lightgreen;
+        }
+    }
+    &.failure{
+        border-color: lightcoral;
+        color: lightcoral;
+        button{
+            background-color:lightcoral;
+        }
+    }
+    button{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        border-radius: 50%;
+        border: 0px;
+        color: #fefefe;
+        outline: none;
+        cursor: pointer;
+    }
+}
